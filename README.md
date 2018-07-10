@@ -5,17 +5,11 @@
 ### Server is ready at the below URL. Click to launch graphQL playground.
     http://localhost:4000/
       
-### Sample Query to fetch the employee data:
+### Sample Query to fetch the books data:
     
     {
-      	employee {
-          employeeNumber
-          prefix
-          firstName
-          travelRequests {
-            requestNumber
-            pnr
-            status
-          }
-        }
+      books {
+        title
+        author
+      }
     }
